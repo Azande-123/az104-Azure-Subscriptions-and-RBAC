@@ -139,7 +139,7 @@ Description:
 The custom role was based on the existing **Support Request Contributor**
 role.
 
-![Custom Role](screenshots/06-custom-role.png)
+![Custom Role](Create_Custom_Role_ss.png)
 
 **Result:** A custom RBAC role was configured based on an existing
 built-in role.
@@ -184,7 +184,7 @@ management group.
 The Activity Log provides visibility into administrative operations
 performed within the Azure environment.
 
-![Activity Log](screenshots/09-activity-log.png)
+![Activity Log](Az104-MG1_Activity_Log_ss.png)
 
 **Result:** Role assignment activity was reviewed using the Activity Log.
 
