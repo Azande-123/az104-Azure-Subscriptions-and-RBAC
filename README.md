@@ -120,7 +120,7 @@ Contributor role.
 Reviewed the Role assignments section of Access Control (IAM) to verify
 that the `helpdesk` group had the expected role assignment.
 
-![Role Assignment Verification](screenshots/05-role-assignment-verification.png)
+![Role Assignment Verification](Role_Assignment_Successful_ss.png)
 
 **Result:** The `helpdesk` group was successfully listed with the
 Virtual Machine Contributor role.
