@@ -109,7 +109,7 @@ The Virtual Machine Contributor role allows the Help Desk to manage
 virtual machines without granting permissions to access the operating
 system or manage the associated virtual network and storage account.
 
-![Virtual Machine Contributor Assignment](screenshots/04-vm-contributor-assignment.png)
+![Virtual Machine Contributor Assignments](RBAC_Role_Assignment.png)
 
 **Result:** The `helpdesk` group was assigned the Virtual Machine
 Contributor role.
@@ -156,7 +156,7 @@ provider.
 The permission was excluded because the Help Desk does not require the
 ability to register the support resource provider.
 
-![Excluded Permission](screenshots/07-excluded-permission.png)
+![Excluded Permission](Excluded_Permissions_ss.png)
 
 **Result:** The unnecessary permission was excluded from the custom role.
 
@@ -171,7 +171,7 @@ The definition contains elements such as:
 - NotActions
 - AssignableScopes
 
-![Custom Role JSON](screenshots/08-custom-role-json.png)
+![Custom Role JSON](Custom_Role_JSON.png)
 
 **Result:** Reviewed how Azure represents custom RBAC roles using JSON.
 
