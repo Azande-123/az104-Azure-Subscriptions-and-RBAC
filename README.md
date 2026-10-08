@@ -48,7 +48,7 @@ role is created with unnecessary permissions removed.
 
 ## Architecture
 
-![Azure RBAC Architecture](diagrams/architecture.png)
+![Azure RBAC Architecture](Project_Structure_ss.png)
 
 
 # Implementation
@@ -62,7 +62,13 @@ Created a management group named:
 The management group provides a higher-level scope for organizing Azure
 subscriptions and applying access control.
 
-![Management Group](screenshots/01-management-group.png)
+![Management Group Blade](MG_Blade_ss.png)
+
+
+![Management Group Creation](Create_MG1_ss.png)
+
+
+![Management Group Created Successfully](MG1_Created_Successfully_ss.png)
 
 **Result:** The `az104-mg1` management group was successfully created.
 
@@ -76,7 +82,7 @@ Created a Microsoft Entra ID security group named:
 The group is used as the identity to which the Azure RBAC role will be
 assigned.
 
-![Help Desk Group](screenshots/02-helpdesk-group.png)
+![Help Desk Group](Create_HelpDesk_Grp_ss.png)
 
 **Result:** The Help Desk security group was successfully created.
 
@@ -89,7 +95,7 @@ Access Control (IAM) interface.
 Azure provides built-in roles with predefined permissions that can be
 assigned at different scopes.
 
-![RBAC Roles](screenshots/03-rbac-roles.png)
+![RBAC Roles](IAM_Blade.png)
 
 **Result:** Reviewed available built-in roles and their permissions.
 
