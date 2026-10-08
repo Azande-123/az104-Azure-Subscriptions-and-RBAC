@@ -95,7 +95,7 @@ Access Control (IAM) interface.
 Azure provides built-in roles with predefined permissions that can be
 assigned at different scopes.
 
-![RBAC Roles](IAM_Blade.png)
+![RBAC Roles](IAM_Blade_ss.png)
 
 **Result:** Reviewed available built-in roles and their permissions.
 
@@ -109,7 +109,7 @@ The Virtual Machine Contributor role allows the Help Desk to manage
 virtual machines without granting permissions to access the operating
 system or manage the associated virtual network and storage account.
 
-![Virtual Machine Contributor Assignments](RBAC_Role_Assignment.png)
+![Virtual Machine Contributor Assignments](RBAC_Role_Assignment_ss.png)
 
 **Result:** The `helpdesk` group was assigned the Virtual Machine
 Contributor role.
